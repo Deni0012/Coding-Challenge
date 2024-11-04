@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   font-family: Arial, sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   background-image: url('file:///C:/Users/willy/OneDrive/Desktop/MaterialeEsercizioLim/background.png.jpg');
+   background-size: cover;
+   color: white;
+}
+
+.container{
+   text-align: center;
+   background-color: rgba(0, 0, 0, 0.6);
+   padding: 20px;
+   border-radius: 10px;
+   width: 350%;
+   max-width: 2000px;
+}
+
+.logo {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #b4ff00;
+}
+
+.buttons button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.scooter-list {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.scooter {
+    color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.scooter h2 {
+    font-size: 1.2em;
+    color: white;
+}
+
+.scooter p {
+    font-size: 1em;
+}
+
+.status {
+    font-weight: bold;
+}
+
+.status.green {
+    color: green;
+}
+
+.status.yellow {
+    color: yellow;
+}
+
+.status.red {
+    color: red;
+}
