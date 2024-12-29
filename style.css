@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+/*Background e formato della pagina*/
+
+body{
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    margin: 0;
+}
+
+.main-container{
+  width: 60%;
+  display: block;
+  margin: auto;
+  align-content: center;
+  min-height: 100vh;
+}
+
+.container-1{
+      display: block;
+      text-align: center;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      width: 100%;
+      margin-top: 30px;
+      padding: 80px;
+      padding-bottom: 20px;
+      background-color: rgba(0, 0, 0, 0.6);
+}
+
+.container-2{
+    display: block;
+    text-align: left;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100%;
+    padding: 80px;
+    padding-top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+.logo{
+    width: 250px;
+}
+
+header h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: rgb(89, 207, 16);
+}
+
+.button-container {
+    background-color: #32CD32;
+    display: block;
+    padding: 10px;
+}
+
+.button-container input {
+   background-color: white;
+   border: none;
+   margin: 5px;
+   font-size: 15px;
+   color: black;
+   cursor: pointer;
+   transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+
+/* Scooter list stile */
+.scooter-list {
+    display: block;
+    padding: 10px;
+}
+
+.scooter-list h2 {
+    font-size: 20px;
+    display: inline;
+}
+
+.scooter-list p {
+    margin: 5px 0;
+}
+
+
+
+/* Status monopattini*/
+.status {
+    height: 5px;
+    margin-top: 5px;
+}
+
+.status-orange {
+    display: block;
+    background-color: orange;
+    padding: 10px;
+    height: 10px;
+    width: 35%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+}
+
+.status-green {
+    background-color: green;
+    padding: 10px;
+    height: 10px;
+    width: 50%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+ .status-red {
+    background-color: red;
+    padding: 10px;
+    height: 10px;
+    width: 15%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
